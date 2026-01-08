@@ -25,6 +25,10 @@ implemented via the Nordic UART Service (NUS). The Central handles scanning, con
 command transmission, and data display, while the Peripheral manages sensor acquisition,
 BLE advertising, and notifications.
 
+## Code Files
+- Ble_Central.ino – Central device firmware
+- Ble_Peripheral.ino – Peripheral device firmware
+
 ## System Architecture
 - **Central Node**
   - BLE Central role
